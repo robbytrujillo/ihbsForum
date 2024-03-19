@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>IHBS FORUM</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
+        <link rel="manifest" href="/site.webmanifest">
 
         @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
@@ -13,7 +16,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg bg-secondary">
             <div class="container flex justify-content-between">
               <a class="navbar-link" href="#">
-                <img class="h-32px" src="{{ url('assets/images/forum-logos.png') }}" alt="ihbsforum logo">
+                <img class="h-24px" src="{{ url('assets/images/forum-logos.png') }}" alt="ihbsforum logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
