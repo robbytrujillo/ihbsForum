@@ -36,12 +36,20 @@
                 <form class="d-flex w-100 me-4 my-2 my-lg-0" role="search" action="#" method="GET">
                   <div class="input-group">
                     <span class="input-group-text bg-white border-end-0">
-                      <img src=""
+                      <img src="{{ url('assets/images/icon-search.png') }}" alt="Search">
                     </span>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                    <input class="form-control border-start-0 ps-0" type="search" placeholder="Search" aria-label="Search" name="" value="">
+                  {{-- <button class="btn btn-outline-primary" type="submit">Search</button> --}}
                   </div>
                 </form>
+                <ul>
+                  <li class="nav-item my-auto">
+                    <a class="nav-link text-wrap" href="#">Log In</a>
+                  </li>
+                  <li class="nav-item ps-1 pe-0">
+                    <a class="btn btn-primary-white" href="#">Sign Up</a>
+                  </li>
+                </ul>
               </div>
             </div>
         </nav>
