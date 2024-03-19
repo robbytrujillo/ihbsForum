@@ -30,4 +30,28 @@
 
 .btn-primary-white {
     background-color: $white;
+    color: $secondary;
+    border-radius: 50px;
+    padding: 10px 24px;
+    min-width: 128px;
+
+    &:hover {
+        background-color: $gray-100;
+        color: $gray;
+    }
 }
+
+.btn-primary {
+    background-color: $gray;
+    color: $black;
+    border-radius: 50px;
+    padding: 10px 24px;
+    min-width: 128px;
+
+    &:hover {
+        background-color: $gray-100;
+        color: $gray;
+    }
+}
+
+
