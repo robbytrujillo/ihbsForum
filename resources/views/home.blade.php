@@ -16,7 +16,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
             <div class="container flex justify-content-between">
               <a class="navbar-link" href="{{ route('home') }}">
-                <img class="h-30px" src="{{ url('assets/images/forum-logos.png') }}" alt="ihbsforum logo">
+                <img class="h-24px" src="{{ url('assets/images/ihbsf-logo.png') }}" alt="ihbsforum logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,10 +27,10 @@
                     <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active" aria-current="page" href="#">Discussion</a>
+                    <a class="nav-link" aria-current="page" href="#">Discussion</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    <a class="nav-link text-nowrap" aria-current="page" href="#">About Us</a>
                   </li>
                 </ul>
                 <form class="d-flex w-100 me-4 my-2 my-lg-0" role="search" action="#" method="GET">
@@ -44,10 +44,10 @@
                 </form>
                 <ul class="navbar-nav ms-auto my-2 my-lg-0"> 
                   <li class="nav-item my-auto">
-                    <a class="nav-link text-wrap" href="#">Log In</a>
+                    <a class="nav-link text-nowrap" href="#">Log In</a>
                   </li>
                   <li class="nav-item ps-1 pe-0">
-                    <a class="btn btn-primary-white text-nowrap" href="#">Sign Up</a>
+                    <a class="btn btn-primary-white" href="#">Sign Up</a>
                   </li>
                 </ul>
               </div>
