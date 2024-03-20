@@ -42,12 +42,12 @@
                   {{-- <button class="btn btn-outline-primary" type="submit">Search</button> --}}
                   </div>
                 </form>
-                <ul>
+                <ul class="navbar-nav ms-auto my-2 my-lg-0"> 
                   <li class="nav-item my-auto">
                     <a class="nav-link text-wrap" href="#">Log In</a>
                   </li>
                   <li class="nav-item ps-1 pe-0">
-                    <a class="btn btn-primary-white" href="#">Sign Up</a>
+                    <a class="btn btn-primary-white text-nowrap" href="#">Sign Up</a>
                   </li>
                 </ul>
               </div>
