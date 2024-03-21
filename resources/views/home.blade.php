@@ -56,7 +56,11 @@
       
         {{-- Hero Section --}}
         <section class="container hero">
+          <div class="row align-items-center h-100">
+            <div class="col-12 col-lg-6">
 
+            </div>
+          </div>
         </section>
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
