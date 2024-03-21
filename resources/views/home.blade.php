@@ -58,7 +58,10 @@
         <section class="container hero">
           <div class="row align-items-center h-100">
             <div class="col-12 col-lg-6">
-
+              <h1>IHBS<br />Comunity Forum</h1>
+              <p class="mb-4">Empowering The IHBS Community to connect, share, and Learn</p>
+              <a href="#">Sign Up</a>
+              <a href="#">Join Discussion</a>
             </div>
           </div>
         </section>
