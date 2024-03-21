@@ -60,8 +60,8 @@
             <div class="col-12 col-lg-6">
               <h1>IHBS<br />Comunity Forum</h1>
               <p class="mb-4">Empowering The IHBS Community to connect, share, and Learn</p>
-              <a href="#">Sign Up</a>
-              <a href="#">Join Discussion</a>
+              <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
+              <a href="#" class="btn btn-secondary me-2 mb-2 mb-lg-0">Join Discussion</a>
             </div>
           </div>
         </section>
