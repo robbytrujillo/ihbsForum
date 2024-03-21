@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>IHBS FORUM</title>
+        <title>IHBS Forum</title>
 
         <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
         <link rel="manifest" href="/site.webmanifest">
@@ -53,6 +53,11 @@
               </div>
             </div>
         </nav>
+      
+        {{-- Hero Section --}}
+        <section class="container hero">
+
+        </section>
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </body>
