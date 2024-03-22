@@ -70,6 +70,27 @@
           </div>
         </section>
 
+        <section class="container min-h-372px">
+          <div class="row">
+            <div class="col-12 col-lg-4 text-center">
+              <img class="promote-icon mb-2" src="{{ url('assets/images/icons/discussions.png') }}" alt="Discussions">
+              <h2>Discussions</h2>
+              <p class="fs-3">111</p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+              <img class="promote-icon mb-2" src="{{ url('assets/images/icons/answers.png') }}" alt="Answers">
+              <h2>Answers</h2>
+              <p class="fs-3">1200</p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+              <img class="promote-icon mb-2" src="{{ url('assets/images/icons/users.png') }}" alt="Users">
+              <h2>Users</h2>
+              <p class="fs-3">1433</p>
+            </div>
+          </div>
+        </section>
+
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </body>
 </html>
