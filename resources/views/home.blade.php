@@ -63,6 +63,10 @@
               <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
               <a href="#" class="btn btn-secondary me-2 mb-2 mb-lg-0">Join Discussion</a>
             </div>
+            <div class="col-12 col-lg-6 h-315px order-first order-lg-last mb-3 mb-lg-0">
+              <img src="{{ url('assets/images/hero.png') }}" alt="hero">
+              
+            </div>
           </div>
         </section>
 
