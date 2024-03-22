@@ -70,6 +70,7 @@
           </div>
         </section>
 
+        {{-- Promotion Sections --}}
         <section class="container min-h-372px">
           <div class="row">
             <div class="col-12 col-lg-4 text-center">
@@ -90,6 +91,10 @@
           </div>
         </section>
 
+        {{-- Help Others Section --}}
+        <section class="bg-gray">
+
+        </section>
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </body>
