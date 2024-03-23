@@ -16,7 +16,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg bg-white">
             <div class="container flex justify-content-between">
               <a class="navbar-link" href="{{ route('home') }}">
-                <img class="h-28px" src="{{ url('assets/images/ihbsforum-logo-white.png') }}" alt="ihbsforum logo">
+                <img class="h-28px" src="{{ url('assets/images/ihbsforum-logos.png') }}" alt="ihbsforum logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
           <div class="row align-items-center h-100">
             <div class="col-12 col-lg-6">
               <h1>IHBS<br />Comunity Forum</h1>
-              <p class="mb-4">Empowering The IHBS Community to connect, share, and Learn</p>
+              <p class="mb-4">Empowering The IHBS Community to connect, share, and learn</p>
               <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
               <a href="#" class="btn btn-secondary me-2 mb-2 mb-lg-0">Join Discussion</a>
             </div>
@@ -94,7 +94,7 @@
         {{-- Help Others Section --}}
         <section class="bg-gray">
           <div class="container py-80px">
-            <h2 class="text-center mb-5">Help Others</h2>
+            <h2 class="text-center mb-5 c-primary">Help Others</h2>
             <div class="row">
               <div class="col-12 col-lg-4 mb-3">
                 <div class="card">
@@ -114,7 +114,7 @@
                           </a>
                         </div>
                         <span class="fs-12px">
-                          <a href="#" class="me-1 fw-bold">robby</a>
+                          <a href="#" class="me-1 fw-bold">robbyik</a>
                           <span class="color-gray">7 hours ago</span>
                         </span>
                       </div>
@@ -125,10 +125,10 @@
               <div class="col-12 col-lg-4 mb-3">
                 <div class="card">
                   <a href="#">
-                    <h3>How to add a custom validation in IHBS?</h3>
+                    <h3>Middleware go looping sometimes</h3>
                   </a>
                   <div>
-                    <p class="mb-5">I am working on a blogging application in IHBS. There are 4 user roles, among which, the ...</p>
+                    <p class="mb-5">Can you guys know why my user entering a redirect loop sometimes? It's happened very ...</p>
                     <div class="row">
                       <div class="col me-1 me-lg-2">
                         <a href="#"><span class="badge rounded-pill text-bg-light">Eloquent</span></a>
@@ -140,7 +140,7 @@
                           </a>
                         </div>
                         <span class="fs-12px">
-                          <a href="#" class="me-1 fw-bold">robby</a>
+                          <a href="#" class="me-1 fw-bold">robbyik</a>
                           <span class="color-gray">7 hours ago</span>
                         </span>
                       </div>
@@ -151,10 +151,10 @@
               <div class="col-12 col-lg-4 mb-3">
                 <div class="card">
                   <a href="#">
-                    <h3>How to add a custom validation in IHBS?</h3>
+                    <h3>'Property of Non-Object' Error</h3>
                   </a>
                   <div>
-                    <p class="mb-5">I am working on a blogging application in IHBS. There are 4 user roles, among which, the ...</p>
+                    <p class="mb-5">I'm trying to access a pivot table column value in Blade. When I dd() the following line, I ...</p>
                     <div class="row">
                       <div class="col me-1 me-lg-2">
                         <a href="#"><span class="badge rounded-pill text-bg-light">Eloquent</span></a>
@@ -166,7 +166,7 @@
                           </a>
                         </div>
                         <span class="fs-12px">
-                          <a href="#" class="me-1 fw-bold">robby</a>
+                          <a href="#" class="me-1 fw-bold">robbyik</a>
                           <span class="color-gray">7 hours ago</span>
                         </span>
                       </div>
@@ -175,6 +175,16 @@
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {{-- CTA section --}}
+        <section class="container min-h-372px d-flex flex-column align-items-center justify-content-center">
+          <h2>Ready to contribute?</h2>
+          <p class="mb-4">Want to make a big impact</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
+            <a href="#" class="btn btn-secondary me-2 mb-2 mb-lg-0">Join Discussion</a>
           </div>
         </section>
 

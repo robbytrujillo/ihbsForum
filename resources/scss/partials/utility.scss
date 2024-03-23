@@ -97,13 +97,41 @@
     padding: 24px;
 }
 
+.c-primary {
+    color: $primary;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.color-gray {
+    color: $gray-500;
+}
+
+.card-avatar-sm {
+    width: 18px;
+    height: 18px;
 }
 
 .text-bg-light {
     &:hover {
         color: $primary !important;
     }
+}
+
+.avatar-sm-wrapper {
+    height: 18px;
+    width: 18px;
+}
+
+.avatar {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fs-12px {
+    font-size: 12px;
 }
