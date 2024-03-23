@@ -5,17 +5,17 @@
 .navbar-nav {
     .nav-link.active {
         // color: $white;
-        color: $primary;
+        color: black;
         font-weight: bold;
     }
 
     .nav-link {
         // color: $white;
-        color: $primary;
+        color: black;
 
         &:hover {
             // color: $gray-200;
-            color: $black;
+            color: #467228;
         }
     }
 }
@@ -34,7 +34,7 @@
 
 .btn-primary-white {
     // background-color: $white;
-    background-color: $primary;
+    background-color: #467228;
     // color: $primary;
     color: $white;
     border-radius: 50px;
@@ -43,12 +43,12 @@
 
     &:hover {
         background-color: $gray-100;
-        color: $primary;
+        color: #467228;
     }
 }
 
 .btn-primary {
-    background-color: $blue;
+    background-color: #467228;
     color: $white;
     border-radius: 50px;
     padding: 10px 24px;
@@ -56,21 +56,22 @@
 
     &:hover {
         color: $white;
+        background-color: black;
     }
 }
 
 .btn-secondary {
     background-color: $white;
-    border-color: $blue;
-    color: $blue;
+    border-color: #467228;
+    color: #467228;
     border-radius: 50px;
     padding: 10px 24px;
     min-width: 128px;
 
     &:hover {
         color: $white;
-        background-color: $primary;
-        border-color: $primary;
+        background-color: #467228;
+        border-color: #467228;
     }
 }
 
@@ -98,12 +99,12 @@
 }
 
 .c-primary {
-    color: $primary;
+    color: #467228;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #467228;
 }
 
 .color-gray {
@@ -117,7 +118,7 @@ a {
 
 .text-bg-light {
     &:hover {
-        color: $primary !important;
+        color: #467228 !important;
     }
 }
 
