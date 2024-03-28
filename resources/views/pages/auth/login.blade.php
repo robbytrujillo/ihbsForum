@@ -18,7 +18,11 @@
                                 <label for="password" class="form-label">Password</label>
                                 <div class="input-group">
                                     <input type="password" class="form-control border-end-0 pe-0 rounded-0 rounded-start-0" id="password" name="password">
-                                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                    <span class="input-group-text bg-white border-start-0 pe-auto">
+                                        <a href="javascript:;" id="password-toggle">
+                                            <img src="{{ url('assets/images/eye-slash.png') }}" alt="Password toggle">
+                                        </a>
+                                    </span>
                                   </div>
                             </div>
                         </form>
