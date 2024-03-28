@@ -16,7 +16,10 @@
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password">
+                                <div class="input-group">
+                                    <input type="password" class="form-control border-end-0 pe-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                  </div>
                             </div>
                         </form>
                     </div>
